@@ -11,7 +11,7 @@ int main()
     printf("Input the marks obtained in Physics: ");
     scanf("%d", &Phy);
 
-    printf("Input the marks obtained in Chemistry; ");
+    printf("Input the marks obtained in Chemistry: ");
     scanf("%d", &Chem);
 
     sum1 = Math + Phy + Chem;
