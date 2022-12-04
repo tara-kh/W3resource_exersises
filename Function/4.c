@@ -1,15 +1,8 @@
 #include <stdio.h>
 
-void evenOrOdd(int N1)
+int evenOrOdd(int N1)
 {
-    if (N1 % 2 == 0)
-    {
-        printf("The entered number is even\n");
-    }
-    else
-    {
-        printf("The entered number is Odd\n");
-    }
+    return (N1 % 2 == 0);
 }
 
 int main()
@@ -18,7 +11,14 @@ int main()
     printf("Input any number : \n");
     scanf("%d", &Num1);
 
-    evenOrOdd(Num1);
+    if (evenOrOdd(Num1))
+    {
+        printf("The entered number is even\n");
+    }
 
+    else
+    {
+        printf("The entered number is Odd\n");
+    }
     return 0;
 }
